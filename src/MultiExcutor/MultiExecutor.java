@@ -14,6 +14,7 @@ public class MultiExecutor {
         this. tasks = tasks;
     }
 
+
     /**
      * Starts and executes all the tasks concurrently
      */
@@ -26,4 +27,9 @@ public class MultiExecutor {
 
         taskList.forEach(Thread::run);
     }
+
+    public static boolean isTrue() {
+        return true;
+    }
+
 }

@@ -26,6 +26,9 @@
  * Threads Creation - Part 2. Thread Inheritance
  * https://www.udemy.com/java-multithreading-concurrency-performance-optimization
  */
+import MultiExcutor.MultiExecutor;
+import MultiExcutor.Task;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -47,6 +50,8 @@ public class Main {
         for (Thread thread : threads) {
             thread.start();
         }
+
+        System.out.println(MultiExecutor.isTrue());
     }
 
     private static class Vault {
@@ -130,4 +135,5 @@ public class Main {
             System.exit(0);
         }
     }
+
 }
