@@ -36,7 +36,6 @@ import java.util.Random;
 public class Main {
     public static final int MAX_PASSWORD = 9999;
 
-    dummmyy
 
     public static void main(String[] args) {
         Random random = new Random();
