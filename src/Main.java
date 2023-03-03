@@ -83,6 +83,7 @@ public class Main {
         @Override
         public void start() {
             System.out.println("Starting thread " + this.getName());
+            System.out.println("s1");
             super.start();
         }
     }
