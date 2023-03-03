@@ -29,6 +29,8 @@ public class MultiExecutor {
     }
 
     public static boolean isTrue() {
+        System.out.println(false);
+        System.out.println("blabllaa");
         return true;
     }
 
